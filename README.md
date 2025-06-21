@@ -65,8 +65,7 @@ Once inside the container, you can compile, run, and debug your C++ programs eas
 ### ▶️ Compile and Run a Program
 
 ```bash
-g++ -g -o myprogram myprogram.cpp
-./myprogram
+g++ -g -o myprogram myprogram.cpp && ./myprogram
 ```
 
 ### 🧪 Run with Valgrind (Full Leak Check)
@@ -91,7 +90,7 @@ This will:
 ├── .devcontainer
 │   ├── devcontainer.json   # VS Code container configuration
 │   └── Dockerfile          # Docker image with C++ tools
-├── useage.txt              #valgrind useage with full leak check command
+├── useage.txt              # Valgrind useage with full leak check command
 └── README.md               # You're here
 ```
 
