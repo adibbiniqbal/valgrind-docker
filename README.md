@@ -17,8 +17,6 @@ This repository provides a ready-to-use C++ development environment using **Dock
   - `build-essential`
   - `gdb`
   - `valgrind`
-- **VS Code Extension**:
-  - `ms-vscode.cpptools` (for IntelliSense, debugging, and build tasks)
 
 ---
 
@@ -28,7 +26,7 @@ This repository provides a ready-to-use C++ development environment using **Dock
 
 Install the following before getting started:
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) or [OrbStack](https://orbstack.dev/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Dev Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
@@ -93,6 +91,7 @@ This will:
 ├── .devcontainer
 │   ├── devcontainer.json   # VS Code container configuration
 │   └── Dockerfile          # Docker image with C++ tools
+├── useage.txt              #valgrind useage with full leak check command
 └── README.md               # You're here
 ```
 
